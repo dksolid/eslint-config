@@ -16,13 +16,13 @@ function getEslintConfig(options) {
       files: ['**/*.{js,jsx,mjs,cjs,ts,tsx}'],
       languageOptions: {
         globals: { ...globals.node },
-        plugins: {
-          'require-extensions': pluginExtensions,
-          'require-node-import-prefix': pluginNodePrefix,
-        },
         parserOptions: {
           project: options.tsConfigPath,
         },
+      },
+      plugins: {
+        'require-extensions': pluginExtensions,
+        'require-node-import-prefix': pluginNodePrefix,
       },
       settings: {
         'import/resolver': {

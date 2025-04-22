@@ -2,7 +2,7 @@
   "name": "@dksolid/eslint-config",
   "author": "dksolid",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Private ESLint config",
   "repository": {
     "type": "git",

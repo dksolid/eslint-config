@@ -203,6 +203,7 @@ function getEslintConfig(options) {
           { basePath: __dirname, zones: [{ target: '../src', from: '../server' }] },
         ],
 
+        '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-shadow': 'error',
         '@typescript-eslint/no-namespace': 'error',
